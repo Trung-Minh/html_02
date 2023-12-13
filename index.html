@@ -7,5 +7,66 @@
   </head>
   <body>
     <h1>Tôi đang học về Git và GitHub</h1>
+    <h2>Những bước để push code lên GitHub</h2>
+    <h3><b>Bước 1:</b></h3>
+    <p>Tạo ra dự án mới trên github đây là phần remote repo</p>
+    <h3><b>Bước 2:</b></h3>
+    <p>Tạo dự án trên máy tính dùng để code và lưu trữ cục bộ</p>
+    <h3><b>Bước 3:</b></h3>
+    <h4>Khởi tạo git: để khởi tạo một kho lưu trữ git cục bộ - Local repo</h4>
+    <ul>
+      <li>
+        <h4><i>Bước 3.1:</i></h4>
+        <p>Mở terminal</p>
+      </li>
+      <li>
+        <h4><i>Bước 3.2:</i></h4>
+        <p>config mặc định chọn git bash khi mở terminal</p>
+      </li>
+      <li>
+        <h4><i>Bước 3.3:</i></h4>
+        <p><b>git status</b> : để kiểm tra trạng thái git</p>
+      </li>
+      <li>
+        <h4><i>Bước 3.4:</i></h4>
+        <p><b>git init</b> : khởi tạo một kho lưu trữ Local</p>
+      </li>
+    </ul>
+    <h3><b>Bước 4:</b></h3>
+    <h4>add thư mục dự án vào staging area chờ commit</h4>
+    <p>
+      <b>git add .</b> : add tất cả thư mục<br />
+      <b>git add tên_thư_mục</b> : add lẻ thư mục, tệp
+    </p>
+    <h3><b>Bước 5:</b></h3>
+    <h4>Commit và đẩy code lên GitHub</h4>
+    <ul>
+      <li>
+        <i>Bước 5.1</i>
+        <p>
+          <b>git commit -m "first commit"</b> : sau khi commit code đẩy vào
+          local repo chờ push lên GitHub<br />
+          - first commit : là tên trong lịch sử
+        </p>
+      </li>
+      <li>
+        <i>Bước 5.2</i>
+        <p>
+          <b>git branch -M main</b> : do trên GitHub là main mà trong máy tính
+          cục bộ là master nên cần cập nhật lại
+        </p>
+      </li>
+      <li>
+        <i>Bước 5.3</i>
+        <p>
+          <b>git remote add origin Đường_dẫn_đến_dự_án</b> : Remote đến máy chủ
+          git
+        </p>
+      </li>
+      <li>
+        <i>Bước 5.4</i>
+        <p><b>git push -u origin main</b> : push code lên máy chủ Git</p>
+      </li>
+    </ul>
   </body>
 </html>
