@@ -1,0 +1,30 @@
+…or create a new repository on the command line
+    echo "# html_02" >> README.md
+        git init : Khởi tạo git trên máy chủ cục bộ
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/Trung-Minh/html_02.git
+        git push -u origin main
+
+
+…or push an existing repository from the command line
+    git remote add origin https://github.com/Trung-Minh/html_02.git
+        git branch -M main
+        git push -u origin main
+
++NHỮNG BƯỚC TẢI CODE LÊN GITHUB
+Bước 1: Tạo ra dự án mới trên github đây là phần remote repo
+Bước 2: Tạo dự án trên máy tính dùng để code và lưu trữ cục bộ
+Bước 3: Khởi tạo git: để khởi tạo một kho lưu trữ git cục bộ - Local repo
+        Mở terminal
+        config mặc định chọn git bash khi mở terminal
+        git status : để kiểm tra trạng thái git
+        git init : khởi tạo một kho lưu trữ Local
+Bước 4: add thư mục dự án vào staging area chờ commit
+        git add . : add tất cả thư mục
+        git add tên_thư_mục : add lẻ thư mục, tệp
+Bước 5: Commit và đẩy code lên GitHub
+    git commit -m "first commit" : sau khi commit code đẩy vào local repo chờ push lên GitHub
+    git remote add origin https://github.com/Trung-Minh/html_02.git : Remote đến máy chủ git
+    git push -u origin main : push code lên máy chủ Git
